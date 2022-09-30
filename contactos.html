@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html tang = "es">
+<head>  
+        <title>Viosa contactanos</title>
+        <link rel = "stylesheet" type="text/css" href="estilos/css3.css"> 
+        <!--etiqueta de meta-->
+        <meta charset="utf-8">
+        <!--ya no funciona pero lo recomendado es ponerlo palabras para buscar-->
+        <meta name = "keywords" content = "diseño web, codigo, programacion, html, css">
+        <!--que se hace en la paginao la descripcion que aparece no mas de 170 caracteres-->
+        <meta name="description" content="Somos una empresa innovadora que se preocupa por la 
+        sociedad en la que vivimos, buscamos fortalecer el bien común basandonos en principios
+         y valores para posicionar al cliente como lo primordial">
+        <!--edice el autor y poner nombre de la pagina para poner al autor de pagina-->
+        <meta name="author" content="Fernando-ViosaInmobiliaria">
+        <!-------nunca olvidar poner--------para adpatar la pagina a los distintos dispocitivos-->
+         <!--width=device-width anch igual a la pantalla de cada dispositivo-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--seo-->
+        <link rel="shorcut icon" type = "image/x-icon" href="imagenes/viosai.ico">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" >
+        <link href="https://font.googleapis.com/css?family=Open+Sans:300, 400, 700, 800&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="index.html" class="enlace">
+            <img src="imagenes/viosa.png" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="index.html">Inicio</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="contactos.html">contactanos</a></li>
+        </ul>
+    </nav>
+    <!----------------------------------------------------------------------------------------->
+    <header>
+        <a class="active" href="index.html" data-aos="fade-right" data-aos-duration="3000">Inicio</a>
+        <a href="proyectos.html" data-aos="fade-right" data-aos-duration="3000">Proyectos</a>
+        <a href="contactos.html" data-aos="fade-right" data-aos-duration="3000">contactanos</a>
+    <img id="vio" src="imagenes/viosa.png"  alt="" class="viosa" data-aos="fade-down-left" data-aos-duration="2500">
+
+        <div class="wave" style="height: 150px; overflow: hidden;" >
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C127.25,92.09 343.40,-2.63 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);">
+                </path></svg></div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <main>
+        <section class="contenedorp3">
+            <h1>contactanos</h1>
+            <form  class="caj"     action="https://formspree.io/f/mzbwgbwk"
+            method="POST">
+                <div class="caj_c">
+                    <input type="text" placeholder="   Nombre" maxlength="40" required name="name" id="nombre" class="caj-f" >
+                    <br>
+                    <input type="email" placeholder="   Correo" maxlength="40" required name="email" id="correo" class="caj-f" >
+                    <br>
+                    <textarea required name="message" placeholder=" Mensaje" id="mensaje" class="caj-mensaje"></textarea>
+                    <br>
+                    <input type="submit" value="enviar" class="boton" data-aos="fade-right"
+                    data-aos-offset="100"
+                    data-aos-easing="ease-in-sine">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer" >
+            <div class="content-foo1">
+                <p class="pf">
+                    <a href="https://www.facebook.com/profile.php?id=100006195525398" rel="" >
+                <img src="imagenes/fab.png" alt="" class="faceb">
+            </a>
+                </p>
+            </div>
+            <div class="content-foo2" data-aos="zoom-in">
+                <h4>correo: </h4>
+                <p>
+                    viosainmobiliaria@gmail.com
+                </p>
+            </div>
+            <div class="content-foo3" data-aos="zoom-in">
+                <h4>CEL: </h4>
+                <p>
+                    7930-4307
+                </p>
+            </div>
+            <div class="content-foo4">
+                <h4>direccion: </h4>
+                <p>
+                    Av.Las Américas 7-62 Zona 3,  Torre pradera Xela ofinica 40,  Cuarto nivel.
+                </p>
+            </div>
+        </div>
+        <br>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
